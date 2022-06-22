@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+.grid__container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    width: 50vw;
+    aspect-ratio: 1/1;
+    background: grey;
+}
+
+
+.grid__square:hover {
+    background: white;
+}
